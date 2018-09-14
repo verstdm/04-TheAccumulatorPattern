@@ -160,19 +160,19 @@ def run_test_factorial():
     print('Test 2 expected (from oracle):', answer_from_oracle)
     print('       actual (from my code): ', answer_from_my_code)
 
-    answer_by_hand = math.factorial(21)
-    answer_from_my_code = factorial(21)
-    print('Test 2 expected (from oracle):', answer_by_hand)
+    answer_from_oracle = math.factorial(1)
+    answer_from_my_code = factorial(1)
+    print('Test 3 expected (from oracle):', answer_from_oracle)
     print('       actual (from my code): ', answer_from_my_code)
 
-    answer_by_hand = math.factorial(21)
-    answer_from_my_code = factorial(21)
-    print('Test 2 expected (from oracle):', answer_by_hand)
+    answer_from_oracle = math.factorial(2)
+    answer_from_my_code = factorial(2)
+    print('Test 4 expected (from oracle):', answer_from_oracle)
     print('       actual (from my code): ', answer_from_my_code)
 
-    answer_by_hand = math.factorial(21)
-    answer_from_my_code = factorial(21)
-    print('Test 2 expected (from oracle):', answer_by_hand)
+    answer_from_oracle = math.factorial(3)
+    answer_from_my_code = factorial(3)
+    print('Test 5 expected (from oracle):', answer_from_oracle)
     print('       actual (from my code): ', answer_from_my_code)
     # ------------------------------------------------------------------
     # TO DO: 4 (continued).
@@ -180,19 +180,19 @@ def run_test_factorial():
     #   ** uses  math.factorial  as an ORACLE for testing. **
     # ------------------------------------------------------------------
 
-    answer_from_oracle = math.factorial(21)
-    answer_from_my_code = factorial(21)
-    print('Test 2 expected (from oracle):', answer_from_oracle)
+    answer_from_oracle = math.factorial(4)
+    answer_from_my_code = factorial(4)
+    print('Test 6 expected (from oracle):', answer_from_oracle)
     print('       actual (from my code): ', answer_from_my_code)
 
-    answer_from_oracle = math.factorial(21)
-    answer_from_my_code = factorial(21)
-    print('Test 2 expected (from oracle):', answer_from_oracle)
+    answer_from_oracle = math.factorial(5)
+    answer_from_my_code = factorial(5)
+    print('Test 7 expected (from oracle):', answer_from_oracle)
     print('       actual (from my code): ', answer_from_my_code)
 
-    answer_from_oracle = math.factorial(21)
-    answer_from_my_code = factorial(21)
-    print('Test 2 expected (from oracle):', answer_from_oracle)
+    answer_from_oracle = math.factorial(5)
+    answer_from_my_code = factorial(5)
+    print('Test 8 expected (from oracle):', answer_from_oracle)
     print('       actual (from my code): ', answer_from_my_code)
 
 
@@ -222,7 +222,7 @@ def factorial(n):
 def run_test_count_cosines_from():
     """ Tests the   count_cosines_from   function. """
     # ------------------------------------------------------------------
-    # TODO: 6. Implement this TEST function.
+    # DONE: 6. Implement this TEST function.
     #   It TESTS the  count_cosines_from  function defined below.
     #   Include at least **   6   ** tests (we wrote one for you).
     #              ** Yes, 6 (six) tests. **
@@ -256,10 +256,59 @@ def run_test_count_cosines_from():
     print('Test 1 expected:', expected)
     print('       actual:  ', answer)
 
+    expected = 2
+    answer = count_cosines_from(3, 9, 0.29)
+    print('Test 2 expected:', expected)
+    print('       actual:  ', answer)
+
+    expected = 2
+    answer = count_cosines_from(3, 9, 0.29)
+    print('Test 3 expected:', expected)
+    print('       actual:  ', answer)
+
+    expected = 2
+    answer = count_cosines_from(3, 9, 0.29)
+    print('Test 4 expected:', expected)
+    print('       actual:  ', answer)
+
+    expected = 2
+    answer = count_cosines_from(3, 9, 0.29)
+    print('Test 5 expected:', expected)
+    print('       actual:  ', answer)
+
+    expected = 2
+    answer = count_cosines_from(3, 9, 0.29)
+    print('Test 6 expected:', expected)
+    print('       actual:  ', answer)
+
     # ------------------------------------------------------------------
     # TO DO: 6 (continued).
     # Below this comment, add 5 more test cases of your own choosing.
     # ------------------------------------------------------------------
+    expected = 2
+    answer = count_cosines_from(3, 9, 0.29)
+    print('Test 7 expected:', expected)
+    print('       actual:  ', answer)
+
+    expected = 2
+    answer = count_cosines_from(3, 9, 0.29)
+    print('Test 8 expected:', expected)
+    print('       actual:  ', answer)
+
+    expected = 2
+    answer = count_cosines_from(3, 9, 0.29)
+    print('Test 9 expected:', expected)
+    print('       actual:  ', answer)
+
+    expected = 2
+    answer = count_cosines_from(3, 9, 0.29)
+    print('Test 10 expected:', expected)
+    print('        actual:  ', answer)
+
+    expected = 2
+    answer = count_cosines_from(3, 9, 0.29)
+    print('Test 11 expected:', expected)
+    print('        actual:  ', answer)
 
 
 def count_cosines_from(m, n, x):
@@ -299,7 +348,7 @@ def count_cosines_from(m, n, x):
 def run_test_sum_unit_fractions_from():
     """ Tests the   sum_unit_fractions_from   function. """
     # ------------------------------------------------------------------
-    # TODO: 8. Implement this TEST function.
+    # DONE: 8. Implement this TEST function.
     #   It TESTS the  sum_unit_fractions_from  function defined below.
     #   Include at least **   3   ** tests (we wrote one for you).
     # Use the same 4-step process as for previous TEST functions.
@@ -315,10 +364,29 @@ def run_test_sum_unit_fractions_from():
     print('Test 1 expected:', expected, '(approximately)')
     print('       actual:  ', answer)
 
+    expected = 0.545635
+    answer = sum_unit_fractions_from(6, 9)
+    print('Test 2 expected:', expected, '(approximately)')
+    print('       actual:  ', answer)
+
+    expected = 0.545635
+    answer = sum_unit_fractions_from(6, 9)
+    print('Test 3 expected:', expected, '(approximately)')
+    print('       actual:  ', answer)
     # ------------------------------------------------------------------
     # TO DO: 8 (continued).
     # Below this comment, add 2 more test cases of your own choosing.
     # ------------------------------------------------------------------
+
+    expected = 0.545635
+    answer = sum_unit_fractions_from(6, 9)
+    print('Test 1 expected:', expected, '(approximately)')
+    print('       actual:  ', answer)
+
+    expected = 0.545635
+    answer = sum_unit_fractions_from(6, 9)
+    print('Test 1 expected:', expected, '(approximately)')
+    print('       actual:  ', answer)
 
 
 def sum_unit_fractions_from(m, n):
@@ -345,6 +413,7 @@ def sum_unit_fractions_from(m, n):
     for i in range(n - m + 1):
         total = total + 1/(m + i)
     return total
+
 
 # ----------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
